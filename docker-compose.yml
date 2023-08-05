@@ -1,0 +1,7 @@
+version: '3'
+services:
+  php:
+    container_name: xdebug
+    build: ./docker
+    ports:
+      - "80:80"
